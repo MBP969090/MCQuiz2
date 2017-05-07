@@ -73,7 +73,11 @@ namespace MCQuiz
             int charcount = 0;
             foreach (var part in textParts)
             {
-                output += part + " ";
+				if(charcount > 0)
+				{
+					output += " ";
+				}
+                output += part;
                 charcount += part.Length;
                 if (charcount >= 60)
                 {
