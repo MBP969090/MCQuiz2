@@ -37,12 +37,12 @@ namespace MCQuiz
             if (success)
             {
                 this.lbl_success.Background = Brushes.Green;
-                this.lbl_success.Content = "GZ du pisser hast bestanden!!!.";
+                this.lbl_success.Content = "Du hast bestanden.";
             }
             else
             {
                 this.lbl_success.Background = Brushes.Red;
-                this.lbl_success.Content = "Leider nicht bestanden du LOOOOOSEEERRRR!!! BOON!!!";
+                this.lbl_success.Content = "Du hast leider nicht bestanden.";
             }
         }
 

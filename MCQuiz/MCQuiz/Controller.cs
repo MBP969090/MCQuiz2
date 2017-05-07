@@ -36,7 +36,6 @@ namespace MCQuiz
         {
             this.CreateHistoryTable();
             this.mainwindow = new MainWindow(this);
-
             this.configuration = new Configuration();
             this.start_form = new StartForm(this);
             this.config_form = new ConfigurationForm(this);

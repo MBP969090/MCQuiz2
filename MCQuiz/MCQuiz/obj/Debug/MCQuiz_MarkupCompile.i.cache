@@ -16,5 +16,5 @@ DEBUG;TRACE
 14-279890910
 App.xaml;ConfigurationForm.xaml;EvaluationForm .xaml;MainWindow.xaml;QuestionForm .xaml;StartForm.xaml;
 
-True
+False
 

@@ -9,9 +9,11 @@
       Title="ConfigurationForm" Height="497" Width="749">
 
     <Grid>
-        <Button x:Name="btn_save_back" Content="Speichern und Zurück" HorizontalAlignment="Left" Margin="510,280,0,0" VerticalAlignment="Top" Width="180" Height="65" Click="btn_save_back_Click"/>
-        <TextBox x:Name="tbx_success_hurdle" HorizontalAlignment="Left" Height="40" Margin="480,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235"/>
-        <TextBox x:Name="tbx_program_name" HorizontalAlignment="Left" Height="23" Margin="500,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btn_reset_history" Content="Button" HorizontalAlignment="Left" Margin="75,185,0,0" VerticalAlignment="Top" Width="75" Click="btn_reset_history_Click"/>
+        <Button x:Name="btn_save_back" Content="Speichern und Zurück" HorizontalAlignment="Left" Margin="525,385,0,0" VerticalAlignment="Top" Width="180" Height="40" Click="btn_save_back_Click"/>
+        <TextBox x:Name="tbx_success_hurdle" HorizontalAlignment="Left" Height="30" Margin="365,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="tbx_program_name" HorizontalAlignment="Left" Height="30" Margin="365,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="285"/>
+        <Button x:Name="btn_reset_history" Content="Historie Löschen" HorizontalAlignment="Left" Margin="300,385,0,0" VerticalAlignment="Top" Width="185" Click="btn_reset_history_Click" Height="40"/>
+        <Label x:Name="lbl_success_percent" Content="Prüfungsbogen bestanden mit (in %)" HorizontalAlignment="Left" Margin="55,85,0,0" VerticalAlignment="Top" Height="30" Width="240"/>
+        <Label x:Name="lbl_name_program" Content="Name des Programms" HorizontalAlignment="Left" Margin="55,150,0,0" VerticalAlignment="Top" Width="240"/>
     </Grid>
 </Page>
