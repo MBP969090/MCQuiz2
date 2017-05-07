@@ -1,0 +1,32 @@
+﻿<Page x:Class="MCQuiz.StartForm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MCQuiz"
+      mc:Ignorable="d" 
+      d:DesignHeight="475"
+      Title="StartForm" Width="765">
+
+    <Grid>
+        <Grid Margin="0,0,0,-1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160*"/>
+                <ColumnDefinition Width="357*"/>
+            </Grid.ColumnDefinitions>
+            <ListView x:Name="liv_history" HorizontalAlignment="Left" Height="315" Margin="196,120,0,0" VerticalAlignment="Top" Width="250" Grid.Column="1">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button x:Name="btn_start" Content="Start Quiz" HorizontalAlignment="Left" Margin="70,345,0,0" VerticalAlignment="Top" Width="250" Grid.ColumnSpan="2" Height="30" Click="btn_start_Click"/>
+            <Button x:Name="btn_config" Content="Einstellungen" HorizontalAlignment="Left" Margin="70,405,0,0" VerticalAlignment="Top" Width="250" Height="30" Grid.ColumnSpan="2" Click="btn_config_Click"/>
+            <ListBox x:Name="lbx_questionnaire" HorizontalAlignment="Left" Height="200" Margin="70,120,0,0" VerticalAlignment="Top" Width="250" Grid.ColumnSpan="2"/>
+            <Label x:Name="lbl_quiz_name" Content="" HorizontalAlignment="Left" Margin="70,25,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="50" Width="375"/>
+
+        </Grid>
+
+    </Grid>
+</Page>
