@@ -10,8 +10,8 @@
 
     <Grid>
         <TextBox x:Name="txt_answers" HorizontalAlignment="Left" Height="230" Margin="50,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="720"/>
-        <Label x:Name="lbl_result" Content="LOL" HorizontalAlignment="Left" Margin="245,375,0,0" VerticalAlignment="Top" Height="35" Width="160"/>
-        <Label x:Name="lbl_success" Content="LOL" HorizontalAlignment="Left" Margin="50,375,0,0" VerticalAlignment="Top" Height="30" Width="135"/>
+        <Label x:Name="lbl_result" Content="LOL" HorizontalAlignment="Left" Margin="340,375,0,0" VerticalAlignment="Top" Height="30" Width="160"/>
+        <Label x:Name="lbl_success" Content="LOL" HorizontalAlignment="Left" Margin="50,375,0,0" VerticalAlignment="Top" Height="30" Width="235"/>
         <Button x:Name="btn_start_form" Content="Zurück zum Menü" HorizontalAlignment="Left" Margin="610,375,0,0" VerticalAlignment="Top" Width="160" Click="btn_start_form_Click" Height="40"/>
 
     </Grid>
